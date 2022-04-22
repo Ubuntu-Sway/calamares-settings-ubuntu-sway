@@ -1,0 +1,36 @@
+---
+componentName: ubuntusway
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+windowExpanding:    normal
+windowSize: 800px,485px
+
+windowPlacement: center
+
+strings:
+    productName:         Ubuntu Sway Remix
+    shortProductName:    Ubuntu Sway
+    version:             22.04
+    shortVersion:        jammy
+    versionedName:       Ubuntu Sway
+    shortVersionedName:  Ubuntu Sway 22.04
+    bootloaderEntryName: ubuntu
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+   sidebarTextSelect:    "#292F34"
+
+slideshowAPI: 2

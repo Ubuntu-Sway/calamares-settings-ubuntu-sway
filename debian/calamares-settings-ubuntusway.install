@@ -1,0 +1,5 @@
+ubuntusway/branding/ etc/calamares/
+ubuntusway/calamares-logs-helper usr/bin/
+ubuntusway/ubuntusway-calamares.desktop usr/share/applications/
+ubuntusway/modules/ etc/calamares/
+ubuntusway/settings.conf etc/calamares/

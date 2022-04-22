@@ -1,0 +1,35 @@
+Source: calamares-settings-ubuntsway
+Section: devel
+Priority: optional
+Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               intltool,
+               qttools5-dev-tools
+Standards-Version: 4.5.1
+Homepage: https://github.com/Ubuntu-Sway/calamares-settings-ubuntusway
+
+Package: calamares-settings-ubuntusway
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         ${misc:Depends}
+Conflicts: calamares-settings-ubuntusway
+Description: Ubuntu Sway Remix Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Ubuntu Sway Remix.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Ubuntu Sway desktop is installed with the
+ Sway window manager.
+
+Package: calamares-settings-ubuntu-common
+Architecture: any
+Depends: calamares (>= 3.2.14~),
+         cryptsetup,
+         keyutils,
+         python3,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         squashfs-tools,
+         ${misc:Depends}
+Description: Common Calamares Settings
+ This package contains the common Calamares settings for all flavors.
+ There is also a automirror Python script to set sources based on
+ geolocation.
