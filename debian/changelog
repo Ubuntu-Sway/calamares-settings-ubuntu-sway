@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (22.04.5) jammy; urgency=medium
+
+  * Initial build
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 23 Apr 2022 10:20:38 +0400
+
 calamares-settings-ubuntudde (2.1.2.8) impish; urgency=medium
 
   * Change sidebar color.
