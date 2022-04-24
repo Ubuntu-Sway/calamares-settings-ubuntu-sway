@@ -1,12 +1,25 @@
 [Desktop Entry]
+Categories=Qt;System;
+Comment[ru_RU]=
+Comment=
+Exec=install-ubuntusway
+GenericName[ru_RU]=
+GenericName=
+Icon=calamares
+Keywords=installer;calamares;system;
+MimeType=
+Name[ru_RU]=
+Name=
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
 Type=Application
 Version=1.0
-_Name=Install Ubuntu Sway Remix 22.04 LTS
-_GenericName=Install Ubuntu Sway Remix
-Exec=bash -c "export BROWSER='sudo -H -u ubuntu falkon'; sudo -E calamares -D6"
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
 _Comment=Calamares — System Installer
-Icon=calamares
-Terminal=false
-StartupNotify=true
-Categories=Qt;System;
-Keywords=installer;calamares;system;
+_GenericName=Install Ubuntu Sway Remix
+_Name=Install Ubuntu Sway Remix 22.04 LTS
