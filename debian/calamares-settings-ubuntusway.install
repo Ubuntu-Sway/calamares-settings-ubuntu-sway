@@ -1,5 +1,4 @@
 ubuntusway/branding/ etc/calamares/
-ubuntusway/install-ubuntusway usr/bin/
-ubuntusway/ubuntusway-calamares.desktop usr/share/applications/
+ubuntusway/99-live etc/sway/config.d/
 ubuntusway/modules/ etc/calamares/
 ubuntusway/settings.conf etc/calamares/
