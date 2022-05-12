@@ -1,14 +1,9 @@
 ---
 componentName: ubuntusway
 welcomeStyleCalamares: true
-welcomeExpandingLogo: true
+welcomeExpandingLogo: false
 windowExpanding: normal
 windowSize: 800px,520px
-windowPlacement: center
-
-windowExpanding:    normal
-windowSize: 800px,485px
-
 windowPlacement: center
 
 strings:
