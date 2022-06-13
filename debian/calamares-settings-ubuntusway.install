@@ -1,4 +1,4 @@
 ubuntusway/branding/ etc/calamares/
-ubuntusway/99-live etc/sway/config.d/
+ubuntusway/99-live.conf etc/sway/config.d/
 ubuntusway/modules/ etc/calamares/
 ubuntusway/settings.conf etc/calamares/
