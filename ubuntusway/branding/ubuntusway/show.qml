@@ -25,27 +25,99 @@ Presentation
 
     Timer {
         interval: 20000
+        running: true
         repeat: true
         onTriggered: presentation.goToNextSlide()
     }
-
     Slide {
         Image {
-            id: background1
-            source: "slide1.png"
-            width: 467; height: 280
-            fillMode: Image.PreserveAspectFit
             anchors.centerIn: parent
-        }
-        Text {
-            anchors.horizontalCenter: background1.horizontalCenter
-            anchors.top: background1.bottom
-            text: "Welcome to Ubuntu Sway Remix.<br/>"+
-                  "The rest of the installation is automated and should complete in a few minutes."
-            wrapMode: Text.WordWrap
-            width: 600
-            horizontalAlignment: Text.Center
+            id: image1
+            x:0
+            y:0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "TUI.png"
         }
     }
-
+    Slide {
+        Image {
+            anchors.centerIn: parent
+            id: image3
+            x:0
+            y:0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "Multimedia.png"
+        }
+    }
+    Slide {
+        Image {
+            anchors.centerIn: parent
+            id: image4
+            x:0
+            y:0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "Customize.png"
+        }
+    }
+    Slide {
+        Image {
+            anchors.centerIn: parent
+            id: image5
+            x:0
+            y:0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "Internet.png"
+        }
+    }
+    Slide {
+        Image {
+            anchors.centerIn: parent
+            id: image6
+            x:0
+            y:0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "Office.png"
+        }
+    }
+    Slide {
+        Image {
+            anchors.centerIn: parent
+            id: image7
+            x:0
+            y:0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "Accessories.png"
+        }
+    }
+    Slide {
+        Image {
+            anchors.centerIn: parent
+            id: image2
+            x:0
+            y:0
+            width: 810
+            height: 485
+            fillMode: Image.PreserveAspectFit
+            smooth: true
+            source: "FindUs.png"
+        }
+    }
 }
