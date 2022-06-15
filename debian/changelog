@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (22.04.17~jammy) jammy; urgency=medium
+
+  * Add slideshow
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 15 Jun 2022 16:53:21 +0400
+
 calamares-settings-ubuntusway (22.04.15~jammy) jammy; urgency=medium
 
   * Fix autostarting

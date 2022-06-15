@@ -1,10 +1,7 @@
 ---
 componentName: ubuntusway
-welcomeStyleCalamares: true
-welcomeExpandingLogo: false
+
 windowExpanding: normal
-windowSize: 800px,520px
-windowPlacement: center
 
 strings:
     productName:         Ubuntu Sway Remix
