@@ -91,7 +91,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "Office.png"
+            source: "Productive.png"
         }
     }
     Slide {

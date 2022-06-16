@@ -1,3 +1,10 @@
+calamares-settings-ubuntusway (22.04.18~jammy) jammy; urgency=medium
+
+  * Improve welcome.png
+  * Remove scaling options
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 15 Jun 2022 20:47:09 +0400
+
 calamares-settings-ubuntusway (22.04.17~jammy) jammy; urgency=medium
 
   * Add slideshow
