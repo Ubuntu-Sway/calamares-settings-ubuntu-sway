@@ -1,3 +1,15 @@
+calamares-settings-ubuntusway (22.04.20~jammy) jammy; urgency=medium
+
+  * Update slideshow
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 30 Jun 2022 13:36:36 +0400
+
+calamares-settings-ubuntusway (22.04.19~jammy) jammy; urgency=medium
+
+  * Text improvements
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 16 Jun 2022 22:28:52 +0400
+
 calamares-settings-ubuntusway (22.04.18~jammy) jammy; urgency=medium
 
   * Improve welcome.png
