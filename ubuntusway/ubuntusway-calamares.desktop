@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-_Name=Install Ubuntu Sway Remix 22.10
-_GenericName=Install Ubuntu Sway Remix
+Name=Install Ubuntu Sway Remix 22.10
+GenericName=Install Ubuntu Sway Remix
 Exec=sudo -E calamares -D6 -style Fusion
-_Comment=Calamares — System Installer
+Comment=Calamares — System Installer
 Icon=calamares
 Terminal=false
 StartupNotify=true
