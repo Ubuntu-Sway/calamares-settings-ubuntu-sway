@@ -1,274 +1,596 @@
-calamares-settings-ubuntusway (22.04.22~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.11) kinetic; urgency=medium
 
-  * Update slideshow
+  * Tackled edge case for if libreoffice-help-$LOCALE doesn't exist but
+    libreoffice-l10n-$LOCALE does exist (required for LibreOffice
+    localization to work with languages like Icelandic)
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 12 Jul 2022 22:21:24 +0400
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Fri, 05 Aug 2022 13:19:50 -0500
 
-calamares-settings-ubuntusway (22.04.21~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.10) kinetic; urgency=medium
 
-  * Update slideshow
+  * Fixed LibreOffice localization bug (LP: #1970270).
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 12 Jul 2022 20:27:17 +0400
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Mon, 25 Jul 2022 23:47:11 -0500
 
-calamares-settings-ubuntusway (22.04.20~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.9) kinetic; urgency=medium
 
-  * Update slideshow
+  * Remove remaining conflicting ubuntustudio files existing in common
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 30 Jun 2022 13:36:36 +0400
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 28 Jun 2022 11:48:34 -0700
 
-calamares-settings-ubuntusway (22.04.19~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.8) kinetic; urgency=medium
 
-  * Text improvements
+  * Remove file in ubuntustudio settings duplicated in common
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 16 Jun 2022 22:28:52 +0400
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Mon, 27 Jun 2022 17:15:06 -0700
 
-calamares-settings-ubuntusway (22.04.18~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.7) kinetic; urgency=medium
 
-  * Improve welcome.png
-  * Remove scaling options
+  * Major oops in last changelog entry.
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 15 Jun 2022 20:47:09 +0400
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 26 Jun 2022 22:17:37 -0500
 
-calamares-settings-ubuntusway (22.04.17~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.6) kinetic; urgency=medium
 
-  * Add slideshow
+  * Move much of the common modules to the common package.
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 15 Jun 2022 16:53:21 +0400
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 26 Jun 2022 22:10:37 -0500
 
-calamares-settings-ubuntusway (22.04.15~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.5) kinetic; urgency=medium
 
-  * Fix autostarting
+  * Fix desktop file typo in exec line.
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 19:07:29 +0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 12 Jun 2022 14:45:37 -0400
 
-calamares-settings-ubuntusway (22.04.14~jammy) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.4) kinetic; urgency=medium
 
-  * Fix autostart
+  * Adjust desktop file to use pkexec so it starts.
+  * Point to the right log file now that we start as root.
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 19:00:46 +0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 11 Jun 2022 16:06:53 -0400
 
-calamares-settings-ubuntusway (22.04.11) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.3) kinetic; urgency=medium
 
-  * Fix grub-efi install
+  * Fixed contextual and shell processes for Lubuntu.
+  * Fixed contextual and shell processed for Ubuntu Studio.
+  * Updated Ubuntu Studio settings for Calamres 3.3.
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 04 May 2022 18:55:03 +0400
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 09 Jun 2022 19:27:24 -0500
 
-calamares-settings-ubuntusway (22.04.10) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.2) kinetic; urgency=medium
 
-  * Fix errors
+  * Update settings for Calamares 3.3.
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 01 May 2022 00:33:57 +0400
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Wed, 08 Jun 2022 18:48:23 -0500
 
-calamares-settings-ubuntusway (22.04.9) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.10.1) kinetic; urgency=medium
 
-  * Adapt to greetd, add autostart config for Sway
+  * Welcome to the Kinetic Kudu!
+  * Fix manual btrfs notifications (LP: #1966774).
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 01 May 2022 00:28:07 +0400
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 28 Apr 2022 10:12:01 -0500
 
-calamares-settings-ubuntusway (22.04.8) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.04.4) jammy; urgency=medium
 
-  * Add autostart
+  * Change calamares to use Ubuntu Studio Light colors
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 30 Apr 2022 17:23:33 +0400
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Thu, 24 Mar 2022 09:50:18 -0700
 
-calamares-settings-ubuntusway (22.04.7) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.04.3) jammy; urgency=medium
 
-  * Add autostart
+  * Fix for kded automount issue (LP: #1965658)
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 30 Apr 2022 17:02:40 +0400
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 22 Mar 2022 15:18:58 -0700
 
-calamares-settings-ubuntusway (22.04.6) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.04.2) jammy; urgency=medium
 
-  * Fixes
+  * Update Ubuntu Studio logo, slideshow (LP: #1965645)
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 23 Apr 2022 10:57:15 +0400
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Mon, 21 Mar 2022 08:39:17 -0700
 
-calamares-settings-ubuntusway (22.04.5) jammy; urgency=medium
+calamares-settings-ubuntu (1:22.04.1) jammy; urgency=medium
 
-  * Initial build
+  * Welcome to Jammy Jellyfish!
+    - Update Branding to 22.04.
+    - Update desktop file. 
+  * Bump Standards-Version to 4.6.0, no changes needed.
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 23 Apr 2022 10:20:38 +0400
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 14 Nov 2021 11:24:15 -0500
 
-calamares-settings-ubuntudde (2.1.2.8) impish; urgency=medium
+calamares-settings-ubuntu (1:21.10.2) impish; urgency=medium
 
-  * Change sidebar color.
+  * Update desktop files for proper version. (LP: #1944778)
+  * Update branding for proper version.
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Tue, 07 Dec 2021 15:04:41 +0545
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sat, 25 Sep 2021 07:47:25 -0400
 
-calamares-settings-ubuntudde (2.1.2.7) impish; urgency=medium
+calamares-settings-ubuntu (1:21.10.1) impish; urgency=medium
 
-  * Add impish artworks by Ananta and disable swap.
+  * ubuntustudio/modules/packages.conf
+    - Remove zram-config from packages to remove to prevent crash
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 05 Dec 2021 23:43:08 +0545
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Tue, 14 Sep 2021 17:22:11 -0700
 
-calamares-settings-ubuntudde (2.1.2.6) impish; urgency=medium
+calamares-settings-ubuntu (1:21.04.2) hirsute; urgency=medium
 
-  * Rebuild.
+  * Append -D6 to desktop exec to bring log level to preferred level.
+    (LP: #1917360)
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 05 Dec 2021 18:01:01 +0545
+ -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 01 Mar 2021 15:37:29 -0500
 
-calamares-settings-ubuntudde (2.1.2.5) impish; urgency=medium
+calamares-settings-ubuntu (1:21.04.1) hirsute; urgency=medium
 
-  * Rebuild.
+  [ apt-ghetto ]
+  * Fix GeoIP parsing for Lubuntu in welcome module.
+  * Use https for the GeoIP lookup
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sat, 04 Dec 2021 17:21:27 +0545
+  [ Dan Simmons ]
+  * Welcome to the Hirsute Hippo!
+  * Set sambashare user as a system user. (LP: #1857364)
+  * Add swapfile as an option and set it as the initial choice
+    (LP: 1881191)
+  * Update d/copyright.
 
-calamares-settings-ubuntudde (2.1.2.4) impish; urgency=medium
+ -- Dan Simmons <kc2bez@lubuntu.me>  Sun, 03 Jan 2021 12:38:33 -0500
 
-  * Rebuild.
+calamares-settings-ubuntu (1:20.10.11) groovy; urgency=medium
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sat, 04 Dec 2021 16:28:07 +0545
+  * Switch to Canonical's GeoIP service.
 
-calamares-settings-ubuntudde (2.1.2.3) impish; urgency=medium
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 14 Oct 2020 18:23:51 -0500
 
-  * Rebuild.
+calamares-settings-ubuntu (1:20.10.10) groovy; urgency=medium
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sat, 04 Dec 2021 13:48:46 +0545
+  * Lowered Ubuntu Studio RAM requirements due to popular demand/confusion
 
-calamares-settings-ubuntudde (2.1.2.2ubuntu1) impish; urgency=medium
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Sat, 26 Sep 2020 09:45:12 -0700
 
-  * Rebuild with postinst adjustment.
+calamares-settings-ubuntu (1:20.10.9) groovy; urgency=medium
 
- -- Arun <aryan@aryan-pc>  Fri, 03 Dec 2021 22:30:48 +0545
+  * Ubuntu Studio
+    - Update color for sidebar
+    - Update Video and Photography slides
 
-calamares-settings-ubuntudde (2.1.2.2) impish; urgency=medium
+ -- Erich Eickmeyer <eeickmeyer@ubuntu.com>  Sat, 19 Sep 2020 13:47:18 -0700
 
-  * fix postinst script.
+calamares-settings-ubuntu (1:20.10.8) groovy; urgency=medium
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Fri, 03 Dec 2021 19:53:54 +0545
+  * Ubuntu Studio
+    - Check for /etc/apt/sources.list.d/dvd.list and remove if exists
 
-calamares-settings-ubuntudde (2.1.2.1) impish; urgency=medium
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Thu, 04 Jun 2020 16:44:43 -0700
 
-  * Drop zram-config from packages.conf 
+calamares-settings-ubuntu (1:20.10.7) groovy; urgency=medium
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Fri, 03 Dec 2021 15:24:33 +0545
+  [ Erich Eickmeyer ]
+  * Ubuntu Studio
+    - Darken sidebar to match new version of materia theme
 
-calamares-settings-ubuntudde (2.1.1ubuntu1) impish; urgency=medium
+  [ Dan Simmons ]
+  * Lubuntu
+    - Adjust Lubuntu desktop file for Groovy.
+  * Ubuntu Common
+    - Add dependencies for cryptsetup, keyutils, needed for LUKS
+      installation and qml-modules for slideshow.
 
-  * Fix calamares installer on desktop.
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 03 Jun 2020 18:47:13 -0400
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 21 Nov 2021 21:14:54 +0545
+calamares-settings-ubuntu (1:20.10.6) groovy; urgency=medium
 
-calamares-settings-ubuntudde (2.1.1) impish; urgency=medium
+  * Ubuntu Studio - Actual Fixes for legacy BIOS installs
+    - Blacklist dvd.list from squashfs rsync
+    - Use new shellprocess script to do audio.conf.disabled rename
 
-  * set chown to Desktop directory.
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Sat, 30 May 2020 22:35:45 -0700
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Tue, 16 Nov 2021 17:03:42 +0545
+calamares-settings-ubuntu (1:20.10.5) groovy; urgency=medium
 
-calamares-settings-ubuntudde (2.1.0) impish; urgency=medium
+  * Ubuntu Studio
+    - Revert previous fix - caused regression
 
-  * Release to impish.
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Fri, 29 May 2020 08:34:15 -0700
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sat, 02 Oct 2021 00:28:08 +0545
+calamares-settings-ubuntu (1:20.10.4) groovy; urgency=medium
 
-calamares-settings-ubuntudde (2.0.9-1) hirsute; urgency=medium
+  * Ubuntu Studio
+    - Apply fixes in previous upload to legacy BIOS systems
 
-  * Release to hirsute.
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Thu, 28 May 2020 16:20:56 -0700
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Thu, 22 Apr 2021 01:16:39 +0545
+calamares-settings-ubuntu (1:20.10.3) groovy; urgency=medium
 
-calamares-settings-ubuntudde (2.0.8-2) hirsute; urgency=medium
+  * Ubuntu Studio
+    - Fix for leftover dvd.list file in /etc/apt/sources.list.d
+    - Fix for disabled /etc/security/limits.d/audio.conf
+    - Replace two slideshow images
 
-  * Reupload with i386 support.
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Fri, 22 May 2020 13:12:21 -0700
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 28 Mar 2021 22:03:23 +0545
+calamares-settings-ubuntu (1:20.10.2) groovy; urgency=medium
 
-calamares-settings-ubuntudde (2.0.8-1) hirsute; urgency=medium
+  * Fix for calamares-logs-helper looking in wrong home folder
 
-  * Refactored to hirsute.
+ -- Erich Eickmeyer <erich@ericheickmeyer.com>  Thu, 21 May 2020 12:54:52 -0700
 
- -- Arun Kumar Pariyar <openarungeek@gmail.com>  Sun, 28 Mar 2021 21:54:59 +0545
+calamares-settings-ubuntu (1:20.10.1) groovy; urgency=medium
 
-calamares-settings-ubuntudde (2.0.7-1) groovy; urgency=medium
+  [ Erich Eickmeyer ]
+  * Added Ubuntu Studio
+  * Welcome to the Groovy Gorilla!
 
-  * Changed the color of sidebar to a bit more blue.
+  [ apt-ghetto ]
+  * Fix AttributeError in automirror module (LP: #1875476)
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Sat, 24 Oct 2020 13:28:00 +0545
+  [ Dan Simmons ]
+  * Adjust Ubuntu Studio translations.
+  * Add groovy to Lubuntu branding.
+  * Drop debian/compat use debhelper-compat=13, no changes needed.
 
-calamares-settings-ubuntudde (2.0.6-1) groovy; urgency=medium
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 20 May 2020 20:40:13 -0400
 
-  * switch GeoIP to Cannonical.
+calamares-settings-ubuntu (1:20.04.2) focal; urgency=medium
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Thu, 22 Oct 2020 12:27:08 +0545
+  * Add shellprocess to implement i386 multiarch.
+  * Bump Standards-Version to 4.5.0, no changes needed.
 
-calamares-settings-ubuntudde (2.0.5-4) groovy; urgency=medium
+ -- Dan Simmons <kc2bez@lubuntu.me>  Mon, 27 Jan 2020 20:46:44 -0500
 
-  * Changed bootloaderEntryName to ubuntu.
+calamares-settings-ubuntu (1:20.04.1) focal; urgency=medium
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Sun, 04 Oct 2020 22:44:58 +0545
+  * Welcome to the Focal Fossa!
 
-calamares-settings-ubuntudde (2.0.4-1) groovy; urgency=medium
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 17 Oct 2019 12:32:11 -0500
 
-  * Changed apt-cdrom add timeout to 120.
+calamares-settings-ubuntu (1:19.10.7) eoan; urgency=medium
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Sun, 04 Oct 2020 02:35:55 +0545
+  * Set directory location of logs to lowercase Calamares.
 
-calamares-settings-ubuntudde (2.0.3-1) groovy; urgency=medium
+ -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 08 Oct 2019 19:13:24 -0400
 
-  * Disabled oem mod.
-  * fixed double installer icon.
-  * Add desktop to Desktop.
+calamares-settings-ubuntu (1:19.10.6) eoan; urgency=medium
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Sun, 04 Oct 2020 01:33:00 +0545
+  * Clean up automirror module:
+    - Improve naming of variables
+    - Add comments
 
-calamares-settings-ubuntudde (2.0.2-1) groovy; urgency=medium
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Fri, 13 Sep 2019 16:51:05 +0200
 
-  * Enabled oem mode.
-  * updated installer icon and info page.
-  * Changed QT_QPA_PLATFORMTHEME to gtk3 as the checkbox is not working in QT5.
+calamares-settings-ubuntu (1:19.10.5) eoan; urgency=medium
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Sat, 03 Oct 2020 15:48:53 +0545
+  * Fix UnboundLocalError in automirror module.
 
-calamares-settings-ubuntudde (2.0.1) groovy; urgency=emergency
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Sun, 08 Sep 2019 11:17:17 +0200
 
-  * Preparing for groovy upload.
+calamares-settings-ubuntu (1:19.10.4) eoan; urgency=medium
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Fri, 02 Oct 2020 23:45:19 +0545
+  [ Dan Simmons ]
+  * Bump Standards-Version to 4.4.0, no changes needed.
+  * Bump debhelper to 12, no changes needed.
+  * Adjust automirror config to new style. Change automirror module
+    to allow for new config style.
+  * Add setting for donate button in welcome.
+  * Add geoip for welcome.
+  * Adjust locale.conf to new geoip style.
+  * Set userSwapChoices to none in partition.conf.
+  * Set defaultFileSystemType to "ext4" in partition.conf.
+  * Set default dont-chroot, oem-setup, disable-cancel, to
+    eliminate warnings from settings.conf.
+  * Add efiMountOptions: umask=0077 to fstab.conf.
+  * Set restart mode to new style in finished.conf.
+  * Set bootloader entry name to Ubuntu.
+  * Set slide show API to 1 to eliminate warnings.
+  * Fix lintian errors and warnings.
+    - Add depends for python3 in calamares-settings-ubuntu-common.
+    - Adjust depends for calamares-settings-lubuntu.
+    - Add further description to extended description for
+      calamares-settings-lubuntu and calamares-settings-ubuntu.
+    - Add lintian override for bash in .desktop file.
+    - Remove unusual-interpreter in .desktop file.
+    - Adjust Makefile so .desktop file so it is not executable.
+    - Add keywords to .desktop file.
+    - Remove executable flag from automirror.conf and module.desc.
+    - Adjust debian/rules dpkg-architecture-variable.
 
-calamares-settings-ubuntudde (1.0.1) focal; urgency=emergency
+  [ apt-ghetto ]
+  * Fix small issues in automirror module
+    - Remove whitespace before index bracket.
+    - Remove undefined variable.
+    - Fix over-indented block.
 
-  * Added check for session.log file.
+ -- Dan Simmons <kc2bez@lubuntu.me>  Tue, 20 Aug 2019 19:59:12 -0400
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Tue, 05 May 2020 12:50:15 +0545
+calamares-settings-ubuntu (1:19.10.3) eoan; urgency=medium
 
-calamares-settings-ubuntudde (1.0.0-9) focal; urgency=high
+  * Short version name is eoan.
+  * Set window size to fullscreen. (LP: #1824758)
 
-  * Changed Calamares Installer height to 485px
+ -- Dan Simmons <kc2bez@lubuntu.me>  Wed, 03 Jul 2019 18:11:25 -0400
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Fri, 01 May 2020 21:44:28 +0545
+calamares-settings-ubuntu (1:19.10.2) eoan; urgency=medium
 
-calamares-settings-ubuntudde (1.0.0-8) focal; urgency=high
+  * Fix initramfs job failing. Thanks to TJ for the fix! (LP: #1829805)
+    * Move before_bootloader_mkdirs process before initramfs.
+    * Workaround bug in update-initramfs::get_sorted_versions() with
+      shellprocess.
 
-  * Changed the Min RAM Required to 1.5G
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 19 Jun 2019 19:32:14 -0700
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Wed, 22 Apr 2020 12:10:13 +0545
+calamares-settings-ubuntu (1:19.10.1) eoan; urgency=medium
 
-calamares-settings-ubuntudde (1.0.0-7) focal; urgency=high
+  * Welcome to the Eoan EANIMAL!
 
-  * Changed sidebar color code and height of the installer
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 19 Apr 2019 19:12:02 -0500
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Wed, 22 Apr 2020 00:15:29 +0545
+calamares-settings-ubuntu (1:19.04.4) disco; urgency=medium
 
-calamares-settings-ubuntudde (1.0.0-6) focal; urgency=high
+  * Lower the minimum RAM requirements.
 
-  * Added calamares sidebar background color.
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Wed, 10 Apr 2019 19:01:48 +0200
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Fri, 10 Apr 2020 17:23:41 +0545
+calamares-settings-ubuntu (1:19.04.3) disco; urgency=medium
 
-calamares-settings-ubuntudde (1.0.0-4) focal; urgency=high
+  * Add a missing module in the automirror script.
 
-  * Changed the sequence of exec to fix the apt-cdrom issue on the installer
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 13 Jan 2019 00:25:05 -0600
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Thu, 09 Apr 2020 12:39:22 +0545
+calamares-settings-ubuntu (1:19.04.2) disco; urgency=medium
 
-calamares-settings-ubuntudde (1.0.0-2) focal; urgency=high
+  * Adjust config for automirror changes in the previous upload.
 
-  * Changed windowExpanding to normal
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 Jan 2019 21:37:37 -0600
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Sun, 05 Apr 2020 12:07:54 +0545
+calamares-settings-ubuntu (1:19.04.1) disco; urgency=medium
 
-calamares-settings-ubuntudde (1.0.0-1) focal; urgency=high
+  [ apt-ghetto ]
+  * Refactor automirror.
 
-  * Initial Release
+  [ Simon Quigley ]
+  * Change the version number to be release-based.
 
- -- Arun Kumar Pariyar <expertaruncorp@gmail.com>  Sat, 04 Apr 2020 20:56:46 +0545
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 12 Jan 2019 15:31:39 -0600
+
+calamares-settings-ubuntu (31) disco; urgency=medium
+
+  * We aren't Lubuntu Next anymore; take it away from the package description.
+  * Try to install languages during the installation.
+  * Don't remove partitionmanager anymore; its a system utility we expect
+    to have installed.
+  * Write a workaround to fix the support and release notes links on the
+    welcome screen.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 20 Nov 2018 18:29:15 -0600
+
+calamares-settings-ubuntu (30) disco; urgency=medium
+
+  * Change the desktop file from 18.10 to 19.04.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 03 Nov 2018 18:03:15 -0500
+
+calamares-settings-ubuntu (29) disco; urgency=medium
+
+  * Fix accidentally reverted parts of 27 in 28 due to the VCS not being
+    up-to-date. Thanks to Jeremy Bicha for spotting the issue (LP: #1801393).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 02 Nov 2018 17:33:51 -0500
+
+calamares-settings-ubuntu (28) disco; urgency=medium
+
+  * Welcome to the Disco Dingo!
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 01 Nov 2018 20:41:31 -0500
+
+calamares-settings-ubuntu (27) cosmic; urgency=medium
+
+  [ Walter Lapchynski ]
+  * Add missing identifiers for urllib exception handling in automirror.
+  * Lubuntu: ensure upgrades don't happen for EFI packages.
+
+  [ Simon Quigley ]
+  * Run `sudo apt[-get] update` if Internet connectivity is found during the
+    installation. This solves some common post-installation issues.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 17 Oct 2018 14:45:36 -0500
+
+calamares-settings-ubuntu (26) cosmic; urgency=medium
+
+  * Lubuntu: fix check for EFI architecture.
+  * Lubuntu: fix location of installer .desktop.
+  * Lubuntu: remove Lintian overrides related to the old installer .desktop.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Fri, 12 Oct 2018 21:04:44 -0700
+
+calamares-settings-ubuntu (25) cosmic; urgency=medium
+
+  * Ignore BIOS entirely when installing GRUB for EFI.
+  * Restore Calamares productIcon.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 11 Oct 2018 19:29:20 -0700
+
+calamares-settings-ubuntu (24) cosmic; urgency=medium
+
+  [ Wendy Hill ]
+  * Rework the Lubuntu slideshow.
+
+  [ Simon Quigley ]
+  * Add -E to the desktop icon so that our nice theming carries over.
+
+  [ Walter Lapchynski ]
+  * Generalize installation of GRUB for EFI.
+  * Add urlopen() error handling to automirror, thanks to Samuel Banya.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Wed, 10 Oct 2018 08:36:52 -0700
+
+calamares-settings-ubuntu (23) cosmic; urgency=medium
+
+  * Lubuntu: ensure install .desktop file is always removed.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 06 Oct 2018 19:15:02 -0700
+
+calamares-settings-ubuntu (22) cosmic; urgency=medium
+
+  * Lubuntu: enable LUKS/encryption.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Thu, 04 Oct 2018 22:02:57 -0700
+
+calamares-settings-ubuntu (21) cosmic; urgency=medium
+
+  * Lubuntu: remove all password checking.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 25 Aug 2018 17:43:33 -0700
+
+calamares-settings-ubuntu (20) cosmic; urgency=medium
+
+  * Lubuntu: add executable to defaultDesktopEnvironment in displaymanager.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Mon, 20 Aug 2018 21:16:47 -0700
+
+calamares-settings-ubuntu (19) cosmic; urgency=medium
+
+  * Remove the build dep completely.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Aug 2018 17:12:15 -0500
+
+calamares-settings-ubuntu (18) cosmic; urgency=medium
+
+  * Translate into Danish.
+  * Make the password detection runtime dep into a build dep.
+  * Bump Standards-version to 4.2.0, no changes needed.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 14 Aug 2018 16:19:36 -0500
+
+calamares-settings-ubuntu (17) cosmic; urgency=medium
+
+  * Add a minimum password strength requirement.
+  * Sync default user groups with Neon.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 10 Aug 2018 20:13:38 -0500
+
+calamares-settings-ubuntu (16) cosmic; urgency=medium
+
+  * Enable automirror by default.
+  * Fix a typo in automirror.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Aug 2018 22:41:53 -0500
+
+calamares-settings-ubuntu (15) cosmic; urgency=medium
+
+  * Add a calamares-settings-ubuntu-common package with an automirror module.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 09 Aug 2018 21:25:17 -0500
+
+calamares-settings-ubuntu (14) cosmic; urgency=medium
+
+  * Don't copy initrd from the live install, because that contains casper.
+  * Make "ubuntu" the bootloader_id and don't do a cp hack.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 27 Jul 2018 14:57:47 -0500
+
+calamares-settings-ubuntu (13) cosmic; urgency=critical
+
+  * Calamares is capitalized (LP: #1783109).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 25 Jul 2018 00:30:09 -0500
+
+calamares-settings-ubuntu (12) cosmic; urgency=critical
+
+  * We're not Neon (LP: #1783024).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 22 Jul 2018 21:13:57 -0500
+
+calamares-settings-ubuntu (11) cosmic; urgency=medium
+
+  * Add a machineid file.
+  * Ensure that /bin/bash is always the default shell.
+  * Clean up awful hacks.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 20 Jul 2018 13:36:18 -0500
+
+calamares-settings-ubuntu (10) cosmic; urgency=medium
+
+  * Fix non-secureboot UEFI installs on real hardware (LP: #1781015).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 18 Jul 2018 23:20:42 -0500
+
+calamares-settings-ubuntu (9) cosmic; urgency=medium
+
+  * Import additional translations from Weblate.
+  * Replace a blind cp with a more tactful apt-cdrom command.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 15 Jul 2018 03:57:10 -0500
+
+calamares-settings-ubuntu (8) cosmic; urgency=medium
+
+  * Finish Danish translations.
+  * Don't use apt-cdrom; just copy the host sources.list.
+  * Add a displaymanager.conf.
+  * Bump Standards-version to 4.1.5, no changes needed.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 13 Jul 2018 22:26:23 -0500
+
+calamares-settings-ubuntu (7) cosmic; urgency=medium
+
+  * Fix geoip timezone detection (LP: #1781310).
+  * Update translations and add support for Portuguese and Brazilian
+    Portuguese.
+  * Ensure that calamares.desktop is removed from all new users on a
+    freshly-installed system (LP: #1781309).
+  * Also remove calamares after install.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 12 Jul 2018 00:15:08 -0500
+
+calamares-settings-ubuntu (6) cosmic; urgency=medium
+
+  * Fix translations for Calamares.
+  * Don't remove GRUB for now.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Wed, 11 Jul 2018 00:27:29 -0500
+
+calamares-settings-ubuntu (5) cosmic; urgency=medium
+
+  * Add translations support for the desktop file and the installer slideshow.
+  * Increase the timeout for the shellprocess commands (LP: #1781015).
+  * Remove the rm line of the shellprocess command (LP: #1780977).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 10 Jul 2018 19:17:43 -0500
+
+calamares-settings-ubuntu (4) cosmic; urgency=medium
+
+  * Don't fail to install the system on BIOS systems (LP: #1780875).
+  * Remove the right live task (LP: #1780585).
+  * Enable GeoIP support by default, to get accurate timezone readings.
+  * Make image and text IDs unique in the slideshow.
+  * Ensure that slideshow images correctly respond to their text.
+  * Actually install the .desktop file.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 09 Jul 2018 20:48:33 -0500
+
+calamares-settings-ubuntu (3) cosmic; urgency=medium
+
+  * Bump Standards-version to 4.1.4, no changes needed.
+  * Fix Vcs-* and Homepage to reflect the move off of GitHub.
+  * Allow Lubuntu to be installed on systems with no network and UEFI
+    systems.
+  * Add a desktop file to install the system with (LP: #1771460).
+  * Update the support link to be current.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 03 Jul 2018 17:03:00 -0500
+
+calamares-settings-ubuntu (2) cosmic; urgency=medium
+
+  * Add a .gitignore file for debian/files.
+  * Remove lubuntu-qt-desktop from Suggests.
+  * Update the Lubuntu.me website for HTTPS.
+  * Bump Lubuntu's system requirements to safe values.
+  * Remove calamares from the explicit removal list; we don't need it to
+    be there anymore.
+  * Lubuntu Next -> Lubuntu.
+  * Make squashfs-tools a hard dependency; without it, Lubuntu's installation
+    fails (LP: #1769781).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 10 May 2018 19:18:01 -0500
+
+calamares-settings-ubuntu (1) bionic; urgency=medium
+
+  * Initial release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 15 Feb 2018 19:54:24 -0600

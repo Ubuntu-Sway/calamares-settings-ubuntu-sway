@@ -1,4 +1,6 @@
 ubuntusway/branding/ etc/calamares/
 ubuntusway/99-live.conf etc/sway/config.d/
+ubuntusway/calamares-logs-helper usr/bin/
 ubuntusway/modules/ etc/calamares/
 ubuntusway/settings.conf etc/calamares/
+ubuntusway/ubuntusway-calamares.desktop usr/share/applications/
