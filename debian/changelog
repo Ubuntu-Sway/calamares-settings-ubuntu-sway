@@ -1,3 +1,10 @@
+calamares-settings-ubuntusway (1:22.10.16~kinetic) kinetic; urgency=medium
+
+  * Add helper installer script
+  * Remove upstream calamares icon from applications menu
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 07 Sep 2022 11:50:04 +0400
+
 calamares-settings-ubuntusway (1:22.10.15~kinetic) kinetic; urgency=medium
 
   * Disable Calamares autostarting
