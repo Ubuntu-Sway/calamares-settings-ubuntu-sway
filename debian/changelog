@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (1:22.10.17~kinetic) kinetic; urgency=medium
+
+  * Add python3-toml dependency
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 25 Sep 2022 00:43:53 +0400
+
 calamares-settings-ubuntusway (1:22.10.16~kinetic) kinetic; urgency=medium
 
   * Add helper installer script
