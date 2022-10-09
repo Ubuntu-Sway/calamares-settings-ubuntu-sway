@@ -2,6 +2,7 @@
 componentName: ubuntusway
 
 windowExpanding: normal
+windowSize:      "890px,600px"
 
 strings:
     productName:         Ubuntu Sway Remix
