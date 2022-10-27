@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (1:22.10.20~kinetic) kinetic; urgency=medium
+
+  * Workaround broken CDROM repo
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 27 Oct 2022 16:56:40 +0400
+
 calamares-settings-ubuntusway (1:22.10.19~kinetic) kinetic; urgency=medium
 
   * Update slideshow
