@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install Ubuntu Sway Remix 22.10
+Name=Install Ubuntu Sway Remix 23.04
 GenericName=Install Ubuntu Sway Remix
 Exec=/usr/bin/install-ubuntusway
 Comment=Calamares — System Installer

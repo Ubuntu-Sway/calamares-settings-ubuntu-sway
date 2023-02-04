@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (1:23.04.21~lunar) lunar; urgency=medium
+
+  * Initial release for Lunar Lobster
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 04 Feb 2023 11:56:32 +0400
+
 calamares-settings-ubuntusway (1:22.10.20~kinetic) kinetic; urgency=medium
 
   * Workaround broken CDROM repo
