@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (1:23.04.22~lunar) lunar; urgency=medium
+
+  * Add greetd user and group
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 12 Feb 2023 15:40:44 +0400
+
 calamares-settings-ubuntusway (1:23.04.21~lunar) lunar; urgency=medium
 
   * Initial release for Lunar Lobster
