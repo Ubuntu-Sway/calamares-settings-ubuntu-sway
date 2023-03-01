@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (1:23.04.24~lunar) lunar; urgency=medium
+
+  * Change desktop file name
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 01 Mar 2023 17:36:11 +0400
+
 calamares-settings-ubuntusway (1:23.04.23~lunar) lunar; urgency=medium
 
   * Change desktop command to sway-run
