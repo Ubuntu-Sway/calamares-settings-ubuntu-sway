@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (1:23.04.25~lunar) lunar; urgency=medium
+
+  * Backport some upstream changes
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 01 Mar 2023 22:20:52 +0400
+
 calamares-settings-ubuntusway (1:23.04.24~lunar) lunar; urgency=medium
 
   * Change desktop file name
