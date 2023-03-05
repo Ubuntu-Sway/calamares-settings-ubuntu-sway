@@ -1,3 +1,9 @@
+calamares-settings-ubuntusway (1:23.04.28~lunar) lunar; urgency=medium
+
+  * displaymanager: change exec to start-sway
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 05 Mar 2023 14:20:17 +0400
+
 calamares-settings-ubuntusway (1:23.04.27~lunar) lunar; urgency=medium
 
   * Revert greeter CSS location
