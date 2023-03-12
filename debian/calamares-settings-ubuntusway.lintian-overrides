@@ -1,3 +1,0 @@
-# The .desktop file uses bash to run falkon as the local
-# user. bash is included in the system.
-calamares-settings-ubuntusway: desktop-command-not-in-package usr/share/applications/ubuntusway-calamares.desktop bash

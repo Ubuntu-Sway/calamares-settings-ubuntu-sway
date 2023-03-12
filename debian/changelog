@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:23.04.29~lunar) lunar; urgency=medium
+
+  * Rename package
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 12 Mar 2023 16:38:15 +0400
+
 calamares-settings-ubuntusway (1:23.04.28~lunar) lunar; urgency=medium
 
   * displaymanager: change exec to start-sway

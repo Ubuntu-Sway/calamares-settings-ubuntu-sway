@@ -4,7 +4,7 @@ set -e
 case "$1" in
     remove)
         # Restore original Calamares icon 
-        dpkg-divert --quiet --rename --package calamares-settings-ubuntusway \
+        dpkg-divert --quiet --rename --package calamares-settings-ubuntu-sway \
                     --remove /usr/share/applications/calamares.desktop
     ;;
 esac

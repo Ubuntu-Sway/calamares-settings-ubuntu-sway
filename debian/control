@@ -1,4 +1,4 @@
-Source: calamares-settings-ubuntusway
+Source: calamares-settings-ubuntu-sway
 Section: devel
 Priority: optional
 Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
@@ -6,14 +6,14 @@ Build-Depends: debhelper-compat (= 13),
                intltool,
                qttools5-dev-tools
 Standards-Version: 4.6.2
-Homepage: https://github.com/Ubuntu-Sway/calamares-settings-ubuntusway
+Homepage: https://github.com/Ubuntu-Sway/calamares-settings-ubuntu-sway
 Rules-Requires-Root: no
 
-Package: calamares-settings-ubuntusway
+Package: calamares-settings-ubuntu-sway
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}, python3-toml
-Conflicts: calamares-settings-ubuntusway
+Conflicts: calamares-settings-ubuntu-sway
 Description: Ubuntu Sway Remix Calamares Settings and Branding
  This package contains the Calamares settings and branding for Ubuntu Sway Remix.
  As part of the branding the installer slideshow is contained within.
