@@ -13,7 +13,7 @@ Package: calamares-settings-ubuntu-sway
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}, python3-toml
-Conflicts: calamares-settings-ubuntu-sway
+Conflicts: calamares-settings-ubuntusway, calamares-settings-lubuntu, calamares-settings-ubuntustudio
 Description: Ubuntu Sway Remix Calamares Settings and Branding
  This package contains the Calamares settings and branding for Ubuntu Sway Remix.
  As part of the branding the installer slideshow is contained within.

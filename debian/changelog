@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:23.04.30~lunar) lunar; urgency=medium
+
+  * Fix Conflicts section
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 13 Mar 2023 22:02:42 +0400
+
 calamares-settings-ubuntu-sway (1:23.04.29~lunar) lunar; urgency=medium
 
   * Rename package
