@@ -39,7 +39,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "TUI.png"
+            source: "Features.png"
         }
     }
     Slide {
@@ -52,7 +52,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "Multimedia.png"
+            source: "TUI.png"
         }
     }
     Slide {
@@ -78,33 +78,7 @@ Presentation
             height: 485
             fillMode: Image.PreserveAspectFit
             smooth: true
-            source: "Internet.png"
-        }
-    }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image6
-            x:0
-            y:0
-            width: 810
-            height: 485
-            fillMode: Image.PreserveAspectFit
-            smooth: true
-            source: "Productive.png"
-        }
-    }
-    Slide {
-        Image {
-            anchors.centerIn: parent
-            id: image7
-            x:0
-            y:0
-            width: 810
-            height: 485
-            fillMode: Image.PreserveAspectFit
-            smooth: true
-            source: "Accessories.png"
+            source: "Hardware.png"
         }
     }
     Slide {
