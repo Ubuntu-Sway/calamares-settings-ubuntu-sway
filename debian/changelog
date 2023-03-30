@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:23.04.31~lunar) lunar; urgency=medium
+
+  * Update slideshow
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 30 Mar 2023 10:47:39 +0400
+
 calamares-settings-ubuntu-sway (1:23.04.30~lunar) lunar; urgency=medium
 
   * Fix Conflicts section
