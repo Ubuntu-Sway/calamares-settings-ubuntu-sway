@@ -7,10 +7,10 @@ windowSize:      "890px,600px"
 strings:
     productName:         Ubuntu Sway Remix
     shortProductName:    Ubuntu Sway
-    version:             23.04
-    shortVersion:        lunar
+    version:             23.10
+    shortVersion:        mantic
     versionedName:       Ubuntu Sway
-    shortVersionedName:  Ubuntu Sway 23.04
+    shortVersionedName:  Ubuntu Sway 23.10
     bootloaderEntryName: ubuntu
     productUrl:          https://ubuntusway.com/
 

@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:23.10.1~mantic) mantic; urgency=medium
+
+  * Prepare for Mantic
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 27 Sep 2023 21:35:58 +0400
+
 calamares-settings-ubuntu-sway (1:23.04.32~lunar) lunar; urgency=medium
 
   * Update slideshow
