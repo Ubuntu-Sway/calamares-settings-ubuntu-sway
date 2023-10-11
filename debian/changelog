@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:23.10.5~mantic) mantic; urgency=medium
+
+  * Add more filesystems to automatic install
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 11 Oct 2023 22:28:43 +0400
+
 calamares-settings-ubuntu-sway (1:23.10.1~mantic) mantic; urgency=medium
 
   * Prepare for Mantic
