@@ -7,12 +7,13 @@ windowSize:      "890px,600px"
 strings:
     productName:         Ubuntu Sway Remix
     shortProductName:    Ubuntu Sway
-    version:             23.04
-    shortVersion:        lunar
+    version:             24.04 LTS
+    shortVersion:        noble
     versionedName:       Ubuntu Sway
-    shortVersionedName:  Ubuntu Sway 23.04
-    bootloaderEntryName: ubuntu
+    shortVersionedName:  Ubuntu Sway 24.04 LTS
+    bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntusway.com/
+    supportUrl:          https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/issues
 
 images:
     productLogo:         "logo.png"
@@ -23,7 +24,7 @@ slideshow:               "show.qml"
 
 style:
    SidebarBackground:    "#2F2F2F"
-   SidebarText:          "#EEEEEE"
-   SidebarTextSelect:    "#2F2F2F"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#FFFFFF"
 
 slideshowAPI: 1
