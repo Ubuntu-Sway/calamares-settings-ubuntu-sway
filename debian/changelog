@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:24.04.21~noble) noble; urgency=medium
+
+  * Update welcome.png
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 17 Jun 2024 16:56:29 +0400
+
 calamares-settings-ubuntu-sway (1:24.04.20~noble) noble; urgency=medium
 
   * Update branding.desc
