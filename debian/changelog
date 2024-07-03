@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (2:24.04.41~noble) noble; urgency=medium
+
+  * Update automirror module
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 03 Jul 2024 20:57:38 +0400
+
 calamares-settings-ubuntu-sway (2:24.04.40~noble) noble; urgency=medium
 
   * Bump version to prevent installing calamares-settings-ubuntu-common
