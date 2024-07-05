@@ -1,19 +1,73 @@
-Source: calamares-settings-ubuntu-sway
+Source: calamares-settings-ubuntu
 Section: devel
 Priority: optional
 Maintainer: Aleksey Samoilov <samoilov.lex@gmail.com>
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: calamares (>= 3.3.5),
+               cmake,
+               debhelper-compat (= 13),
+               extra-cmake-modules,
+               golang-github-snapcore-snapd-dev (>= 2.62),
+               golang-go,
+               golang-gopkg-yaml.v2-dev,
                intltool,
+               libkf5coreaddons-dev,
+               libqt5svg5-dev,
+               libyaml-cpp-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 4.6.2
-Homepage: https://github.com/Ubuntu-Sway/calamares-settings-ubuntu-sway
+Homepage: https://code.launchpad.net/~ubuntu-qt-code/+git/calamares-settings-ubuntu
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/calamares-settings-ubuntu/
+Vcs-Git: https://git.lubuntu.me/Lubuntu/calamares-settings-ubuntu.git
 Rules-Requires-Root: no
+
+Package: calamares-settings-kubuntu
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         ${misc:Depends}
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
+Description: Kubuntu Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Kubuntu.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Kubuntu desktop is installed with the
+ KDE Plasma desktop environment.
+
+Package: calamares-settings-lubuntu
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         ${misc:Depends}
+Recommends: lubuntu-installer-prompt
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
+Description: Lubuntu Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Lubuntu.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Lubuntu desktop is installed with the
+ LXQt desktop environment.
+
+Package: calamares-settings-ubuntu-unity
+Architecture: all
+Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
+         qt5-style-kvantum,
+         qt5-style-kvantum-themes,
+         ${misc:Depends}
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
+Description: Ubuntu Unity Calamares Settings and Branding
+ This package contains the Calamares settings and branding for Ubuntu Unity.
+ As part of the branding the installer slideshow is contained within.
+ The settings ensure a proper Ubuntu Unity desktop is installed with the
+ Unity desktop environment.
 
 Package: calamares-settings-ubuntu-sway
 Architecture: all
 Depends: calamares-settings-ubuntu-common (>= ${binary:Version}),
          ${misc:Depends}, python3-toml
-Conflicts: calamares-settings-ubuntusway, calamares-settings-lubuntu, calamares-settings-ubuntustudio
+Conflicts: calamares-settings-ubuntu-flavor
+Provides: calamares-settings-ubuntu-flavor
 Description: Ubuntu Sway Remix Calamares Settings and Branding
  This package contains the Calamares settings and branding for Ubuntu Sway Remix.
  As part of the branding the installer slideshow is contained within.
@@ -24,13 +78,16 @@ Package: calamares-settings-ubuntu-common
 Architecture: any
 Depends: calamares (>= 3.2.14~),
          cryptsetup,
+         kdialog,
          keyutils,
          python3,
          python3-distro,
          qml-module-qtquick-window2,
          qml-module-qtquick2,
          squashfs-tools,
-         ${misc:Depends}
+         sudo,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Common Calamares Settings
  This package contains the common Calamares settings for all flavors.
  There is also a automirror Python script to set sources based on

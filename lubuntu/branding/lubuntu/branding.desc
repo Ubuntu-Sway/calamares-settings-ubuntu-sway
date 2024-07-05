@@ -1,0 +1,29 @@
+---
+componentName: lubuntu
+
+windowExpanding:    fullscreen
+
+strings:
+    productName:         Lubuntu
+    shortProductName:    Lubuntu
+    version:             24.04 LTS
+    shortVersion:        noble
+    versionedName:       Lubuntu
+    shortVersionedName:  Lubuntu 24.04 LTS
+    bootloaderEntryName: Ubuntu
+    productUrl:          https://lubuntu.me/
+    supportUrl:          https://lubuntu.me/links/
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "icon.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+slideshowAPI:            1
+
+style:
+   SidebarBackground:    "#808080"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#0068C8"

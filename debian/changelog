@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (2:24.04.42~noble) noble; urgency=medium
+
+  * Sync with upstream
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 05 Jul 2024 21:37:11 +0400
+
 calamares-settings-ubuntu-sway (2:24.04.41~noble) noble; urgency=medium
 
   * Update automirror module
