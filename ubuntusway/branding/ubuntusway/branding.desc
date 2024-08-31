@@ -7,10 +7,10 @@ windowSize:      "890px,600px"
 strings:
     productName:         Ubuntu Sway Remix
     shortProductName:    Ubuntu Sway
-    version:             24.04 LTS
-    shortVersion:        noble
+    version:             24.10
+    shortVersion:        oracular
     versionedName:       Ubuntu Sway
-    shortVersionedName:  Ubuntu Sway 24.04 LTS
+    shortVersionedName:  Ubuntu Sway 24.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntusway.com/
     supportUrl:          https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/issues
