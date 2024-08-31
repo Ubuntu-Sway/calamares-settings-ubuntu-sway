@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (2:24.04.45~noble) noble; urgency=medium
+
+  * Update for 24.04.1
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 31 Aug 2024 12:30:19 +0400
+
 calamares-settings-ubuntu (2:24.04.44~noble) noble; urgency=medium
 
   * Temporary disable automirror module
