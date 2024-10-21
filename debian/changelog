@@ -1,3 +1,9 @@
+calamares-settings-ubuntu (1:24.10.10~oracular) oracular; urgency=medium
+
+  * Update version
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 21 Oct 2024 18:46:18 +0400
+
 calamares-settings-ubuntu (1:24.10.6~oracular) oracular; urgency=medium
 
   * Update slideshow
