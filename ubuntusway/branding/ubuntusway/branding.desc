@@ -7,10 +7,10 @@ windowSize:      "890px,600px"
 strings:
     productName:         Ubuntu Sway Remix
     shortProductName:    Ubuntu Sway
-    version:             24.10
-    shortVersion:        oracular
+    version:             25.04
+    shortVersion:        plucky
     versionedName:       Ubuntu Sway
-    shortVersionedName:  Ubuntu Sway 24.10
+    shortVersionedName:  Ubuntu Sway 25.04
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntusway.com/
     supportUrl:          https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/issues
