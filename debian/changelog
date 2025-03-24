@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.04.3~plucky) plucky; urgency=medium
+
+  * Fix modules install path
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 24 Mar 2025 16:18:39 +0400
+
 calamares-settings-ubuntu-sway (1:25.04.2~plucky) plucky; urgency=medium
 
   * Fix installing common modules
