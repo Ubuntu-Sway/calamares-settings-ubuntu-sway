@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.04.4~plucky) plucky; urgency=medium
+
+  * Fix automirror module
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 26 Mar 2025 12:41:16 +0400
+
 calamares-settings-ubuntu-sway (1:25.04.3~plucky) plucky; urgency=medium
 
   * Fix modules install path
