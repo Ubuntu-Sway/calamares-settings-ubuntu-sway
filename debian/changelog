@@ -1,3 +1,10 @@
+calamares-settings-ubuntu-sway (1:25.04.6~plucky) plucky; urgency=medium
+
+  * Visual improvements
+  * Use Fusion style to avoid unreadable text
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 27 Mar 2025 15:31:39 +0400
+
 calamares-settings-ubuntu-sway (1:25.04.5~plucky) plucky; urgency=medium
 
   * Don't run in Xwayland 

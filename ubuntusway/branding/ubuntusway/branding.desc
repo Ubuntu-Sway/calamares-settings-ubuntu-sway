@@ -1,8 +1,7 @@
 ---
 componentName: ubuntusway
 
-windowExpanding: normal
-windowSize:      "890px,600px"
+windowExpanding: fullscreen
 
 strings:
     productName:         Ubuntu Sway Remix

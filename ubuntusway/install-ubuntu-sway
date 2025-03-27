@@ -1,4 +1,4 @@
 #!/bin/bash
 
 export BROWSER='sudo -H -u ubuntu-sway firefox'
-calamares -D8
+QT_STYLE_OVERRIDE=fusion calamares -D8
