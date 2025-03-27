@@ -1,5 +1,4 @@
 #!/bin/bash
 
-xhost +si:localuser:root
-pkexec /usr/bin/calamares -d
-xhost -si:localuser:root
+export BROWSER='sudo -H -u ubuntu-sway firefox'
+calamares -D8

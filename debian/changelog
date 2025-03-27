@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.04.5~plucky) plucky; urgency=medium
+
+  * Don't run in Xwayland 
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 27 Mar 2025 10:31:56 +0400
+
 calamares-settings-ubuntu-sway (1:25.04.4~plucky) plucky; urgency=medium
 
   * Fix automirror module
