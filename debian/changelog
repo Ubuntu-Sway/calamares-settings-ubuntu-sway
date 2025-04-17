@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.04.7~plucky) plucky; urgency=medium
+
+  * Update welcome.png
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 17 Apr 2025 20:55:56 +0400
+
 calamares-settings-ubuntu-sway (1:25.04.6~plucky) plucky; urgency=medium
 
   * Visual improvements
