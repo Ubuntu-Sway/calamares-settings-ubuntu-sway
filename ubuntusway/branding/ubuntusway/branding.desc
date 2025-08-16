@@ -6,10 +6,10 @@ windowExpanding: fullscreen
 strings:
     productName:         Ubuntu Sway Remix
     shortProductName:    Ubuntu Sway
-    version:             25.04
-    shortVersion:        plucky
+    version:             25.10
+    shortVersion:        questing
     versionedName:       Ubuntu Sway
-    shortVersionedName:  Ubuntu Sway 25.04
+    shortVersionedName:  Ubuntu Sway 25.10
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntusway.com/
     supportUrl:          https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/issues
