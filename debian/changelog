@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.10.2~questing) questing; urgency=medium
+
+  * Remove "sudo -E" usage as it ignored by sudo-rs
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 07 Nov 2025 10:36:50 +0400
+
 calamares-settings-ubuntu-sway (1:25.10.1~questing) questing; urgency=medium
 
   * Upload to Questing
