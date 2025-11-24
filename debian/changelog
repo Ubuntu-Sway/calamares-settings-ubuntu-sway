@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.10.3~questing) questing; urgency=medium
+
+  * Fix installer launch
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 24 Nov 2025 21:37:22 +0400
+
 calamares-settings-ubuntu-sway (1:25.10.2~questing) questing; urgency=medium
 
   * Remove "sudo -E" usage as it ignored by sudo-rs
