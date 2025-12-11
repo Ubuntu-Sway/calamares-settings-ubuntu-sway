@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.10.5~questing) questing; urgency=medium
+
+  * Fix slideshow image size
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 11 Dec 2025 23:51:37 +0400
+
 calamares-settings-ubuntu-sway (1:25.10.4~questing) questing; urgency=medium
 
   * Update welcome.png
