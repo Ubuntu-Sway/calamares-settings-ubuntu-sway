@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:25.10.4~questing) questing; urgency=medium
+
+  * Update welcome.png
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 11 Dec 2025 23:46:53 +0400
+
 calamares-settings-ubuntu-sway (1:25.10.3~questing) questing; urgency=medium
 
   * Fix installer launch
