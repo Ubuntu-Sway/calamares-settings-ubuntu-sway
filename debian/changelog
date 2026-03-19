@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:26.04.1~resolute) resolute; urgency=medium
+
+  * Update branding for Resolute
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 19 Mar 2026 22:21:25 +0400
+
 calamares-settings-ubuntu-sway (1:25.10.5~questing) questing; urgency=medium
 
   * Fix slideshow image size
