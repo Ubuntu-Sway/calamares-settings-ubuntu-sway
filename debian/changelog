@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:26.04.3~resolute) resolute; urgency=medium
+
+  * Fix arm64 bootloader install
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 12 Apr 2026 14:08:26 +0400
+
 calamares-settings-ubuntu-sway (1:26.04.2~resolute) resolute; urgency=medium
 
   * Build for arm64 too

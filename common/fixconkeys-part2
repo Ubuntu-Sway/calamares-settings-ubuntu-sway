@@ -1,0 +1,4 @@
+#!/bin/bash
+loadkeys "$(cat /dev/shm/fixconkeys-layout)"
+setupcon --save-only
+rm /usr/libexec/fixconkeys-part2

@@ -1,5 +1,9 @@
 #!/usr/bin/make -f
 
+export LC_ALL=C.UTF-8
+export MODULES_DIR = "debian/calamares-settings-ubuntu-sway/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules"
+export DATA_USRDIR = "debian/calamares-settings-ubuntu-sway/usr"
+
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 %:
@@ -7,10 +11,13 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 override_dh_missing:
 	dh_missing
-	mkdir -pv debian/calamares-settings-ubuntu-sway/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules
-	cp -vr common/modules/automirror debian/calamares-settings-ubuntu-sway/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules
+	mkdir -pv $(MODULES_DIR)
+	cp -vr common/modules/automirror $(MODULES_DIR)
 	mkdir -pv debian/calamares-settings-ubuntu-sway/etc/calamares/modules
 	cp -vr common/modules/*.conf debian/calamares-settings-ubuntu-sway/etc/calamares/modules
 	chmod -R 755 debian/calamares-settings-ubuntu-sway/usr/lib/
-	chmod 644 debian/calamares-settings-ubuntu-sway/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules/automirror/automirror.conf
-	chmod 644 debian/calamares-settings-ubuntu-sway/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules/automirror/module.desc
+	chmod 644 $(MODULES_DIR)/automirror/automirror.conf
+	chmod 644 $(MODULES_DIR)/automirror/module.desc
+	mkdir -pv $(DATA_USRDIR)/libexec/
+	cp -v common/fixconkeys-part1 $(DATA_USRDIR)/libexec/fixconkeys-part1
+	cp -v common/fixconkeys-part2 $(DATA_USRDIR)/libexec/fixconkeys-part2
