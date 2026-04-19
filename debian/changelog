@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:26.04.4~resolute) resolute; urgency=medium
+
+  * Fix multilib script
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 19 Apr 2026 12:29:20 +0400
+
 calamares-settings-ubuntu-sway (1:26.04.3~resolute) resolute; urgency=medium
 
   * Fix arm64 bootloader install
