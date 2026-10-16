@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:26.10.1~stonking) stonking; urgency=medium
+
+  * Initial relase for Stonking
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 16 Oct 2026 21:49:16 +0400
+
 calamares-settings-ubuntu-sway (1:26.04.4~resolute) resolute; urgency=medium
 
   * Fix multilib script
