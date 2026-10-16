@@ -1,3 +1,9 @@
+calamares-settings-ubuntu-sway (1:26.10.2~stonking) stonking; urgency=medium
+
+  * Update version
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 16 Oct 2026 21:59:39 +0400
+
 calamares-settings-ubuntu-sway (1:26.10.1~stonking) stonking; urgency=medium
 
   * Initial relase for Stonking
