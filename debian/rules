@@ -1,6 +1,9 @@
 #!/usr/bin/make -f
 
 export LC_ALL=C.UTF-8
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export PKGSELECT = "common/modules/pkgselect"
+export PKGSELECTPROCESS = "common/modules/pkgselectprocess"
 export MODULES_DIR = "debian/calamares-settings-ubuntu-sway/usr/lib/$(DEB_HOST_MULTIARCH)/calamares/modules"
 export DATA_USRDIR = "debian/calamares-settings-ubuntu-sway/usr"
 
@@ -8,6 +11,18 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 
 %:
 	dh $@
+
+override_dh_auto_configure:
+	(cd $(PKGSELECT) && mkdir build && cd build && cmake ..)
+	(cd $(PKGSELECTPROCESS) && mkdir build && cd build && cmake ..)
+
+override_dh_auto_build:
+	make;
+	(cd $(PKGSELECT)/build && $(MAKE))
+	(cd $(PKGSELECTPROCESS)/build && $(MAKE))
+
+override_dh_auto_install:
+	(cd $(PKGSELECT)/build && $(MAKE) DESTDIR=$(CURDIR)/debian/calamares-settings-ubuntu-sway/ install)
 
 override_dh_missing:
 	dh_missing
@@ -18,6 +33,11 @@ override_dh_missing:
 	chmod -R 755 debian/calamares-settings-ubuntu-sway/usr/lib/
 	chmod 644 $(MODULES_DIR)/automirror/automirror.conf
 	chmod 644 $(MODULES_DIR)/automirror/module.desc
+	chmod 644 $(MODULES_DIR)/pkgselect/libcalamares_viewmodule_pkgselect.so
+	chmod 644 $(MODULES_DIR)/pkgselect/module.desc
+	mkdir -pv $(MODULES_DIR)/pkgselectprocess
+	cp -v $(PKGSELECTPROCESS)/build/*.so $(PKGSELECTPROCESS)/build/*.desc $(MODULES_DIR)/pkgselectprocess
+	chmod 644 $(MODULES_DIR)/pkgselectprocess/libcalamares_job_pkgselectprocess.so
 	mkdir -pv $(DATA_USRDIR)/libexec/
 	cp -v common/fixconkeys-part1 $(DATA_USRDIR)/libexec/fixconkeys-part1
 	cp -v common/fixconkeys-part2 $(DATA_USRDIR)/libexec/fixconkeys-part2

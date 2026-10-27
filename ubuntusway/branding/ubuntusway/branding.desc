@@ -6,10 +6,10 @@ windowExpanding: fullscreen
 strings:
     productName:         Ubuntu Sway Remix
     shortProductName:    Ubuntu Sway
-    version:             26.04
-    shortVersion:        resolute
+    version:             27.04
+    shortVersion:        tenacious
     versionedName:       Ubuntu Sway
-    shortVersionedName:  Ubuntu Sway 26.04
+    shortVersionedName:  Ubuntu Sway 27.04
     bootloaderEntryName: Ubuntu
     productUrl:          https://ubuntusway.com/
     supportUrl:          https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/issues

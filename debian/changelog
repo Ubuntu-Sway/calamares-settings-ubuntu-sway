@@ -1,3 +1,16 @@
+calamares-settings-ubuntu-sway (1:27.04.2~tenacious) tenacious; urgency=medium
+
+  * Fix build
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 27 Oct 2026 16:10:04 +0400
+
+calamares-settings-ubuntu-sway (1:27.04.1~tenacious) tenacious; urgency=medium
+
+  * Initial release for Tenacious
+  * Restore Snap support
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 27 Oct 2026 14:04:41 +0400
+
 calamares-settings-ubuntu-sway (1:26.04.4~resolute) resolute; urgency=medium
 
   * Fix multilib script
